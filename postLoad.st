@@ -5,5 +5,4 @@ Author useAuthor: 'SpurBootstrap' during: [
 		package: 'SlotTests';
 		package: 'Collections-Weak';
 		load.	
-].
-Smalltalk snapshot: true andQuit: true.
+]
