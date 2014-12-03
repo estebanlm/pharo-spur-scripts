@@ -4,5 +4,4 @@ Author useAuthor: 'SpurBootstrap' during: [
 		package: 'Slot';
 		package: 'SlotTests';
 		package: 'Collections-Weak';
-		load.	
-]
+		merge ]
