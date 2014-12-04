@@ -134,4 +134,4 @@ Author useAuthor: 'SpurBootstrap' during: [
 
 		Undeclared removeUnreferencedKeys].
 	"Reconstruct packages"	
-	RPackageOrganizer default initializeFromMC ]
+	RPackageOrganizer initializeDefaultFromMC ]
