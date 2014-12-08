@@ -1,8 +1,8 @@
 Author useAuthor: 'SpurBootstrap' during: [
 	Gofer it 
 		smalltalkhubUser: 'Pharo' project: 'SpurCompatibility';
-		package: 'Slot';
 		package: 'Collections-Weak';
+		package: 'Slot';
 		merge.
 
 	Gofer it 
