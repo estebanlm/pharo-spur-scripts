@@ -1,6 +1,9 @@
-Author useAuthor: 'SpurBootstrap' during: [
-	"SystemAnnouncer uniqueInstance suspendAllWhile: ["
+Author 
+	useAuthor: 'SpurBootstrap' 
+	during: [
 		| boxedFloat floatClassVars soonToBeFloat smallFloat |
+		
+		DangerousClassNotifier disable.
 		
 		boxedFloat := Float.
 		floatClassVars := Float classVariablesString.
@@ -132,6 +135,6 @@ Author useAuthor: 'SpurBootstrap' during: [
 		smallFloat comment: 'My instances represent 64-bit Floats whose exponent fits in 8 bits as immediate objects.  This representation is only available on 64-bit systems, not 32-bit systems.'
 			stamp: 'eem 11/25/2014 07:54'.
 
-		Undeclared removeUnreferencedKeys"]".
-	"Reconstruct packages"	
-	"RPackageOrganizer initializeDefaultFromMC" ]
+		Undeclared removeUnreferencedKeys.
+		
+		DangerousClassNotifier enable ]
