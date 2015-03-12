@@ -1,9 +1,4 @@
 Author useAuthor: 'SpurBootstrap' during: [
-	"Add CompiledMethod variables"
-	CompiledMethod 
-		addClassVarNamed: 'PrimaryBytecodeSetEncoderClass';
-		addClassVarNamed: 'SecondaryBytecodeSetEncoderClass'.
-
 	"Add needed methods"
 	EncoderForV3PlusClosures class 
 		compile: 'callPrimitiveCode
