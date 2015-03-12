@@ -1,5 +1,6 @@
 Author useAuthor: 'SpurBootstrap' during: [
-	"Add needed methods"
+	SmalltalkImage compilerClass: Compiler.
+	
 	EncoderForV3PlusClosures class 
 		compile: 'callPrimitiveCode
 		^ 139'.
