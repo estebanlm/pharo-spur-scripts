@@ -1,7 +1,10 @@
 Author useAuthor: 'SpurBootstrap' during: [
-	Gofer it 
-		smalltalkhubUser: 'Pharo' project: 'SpurCompatibility';
-		package: 'Slot-Tests';
-		package: 'KernelTests';
-		package: 'FuelTests';
-		merge ].
+	#(
+	'Slot-Tests' 
+	'KernelTests' 
+	'FuelTests') 
+	do: [ :each |
+		Gofer it 
+			smalltalkhubUser: 'Pharo' project: 'SpurCompatibility';
+			package: each;
+			merge ] ].
