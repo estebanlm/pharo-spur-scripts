@@ -17,4 +17,5 @@ Author useAuthor: 'SpurBootstrap' during: [
 		package: 'Kernel';
 		package: 'Slot';
 		package: 'Monticello';
+		package: 'Fuel';
 		merge ].
