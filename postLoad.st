@@ -1,5 +1,6 @@
 Author useAuthor: 'SpurBootstrap' during: [
-	"WARNING: Order is important!"
+	"WARNING: Order is important."
+	
 	#(
 	'System-Finalization' 
 	'Collections-Weak' 
