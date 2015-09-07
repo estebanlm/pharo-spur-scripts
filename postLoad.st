@@ -2,8 +2,8 @@ Author useAuthor: 'SpurBootstrap' during: [
 	"WARNING: Order is important."
 	
 	#(
-	'System-Finalization' 
-	'Collections-Weak' 
+	"'System-Finalization' 
+	'Collections-Weak'"
 	'Kernel' 
 	'Slot' 
 	'Monticello' 
