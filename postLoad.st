@@ -3,9 +3,9 @@ Author useAuthor: 'SpurBootstrap' during: [
 	
 	#(
 	"'System-Finalization'" 
+	'Slot' 
 	'Collections-Weak'
 	'Kernel' 
-	'Slot' 
 	'Monticello' 
 	'Fuel') 
 	do: [ :each | 
