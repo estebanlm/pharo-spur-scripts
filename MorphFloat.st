@@ -134,6 +134,16 @@ Author
 			stamp: 'eem 11/25/2014 07:54'.
 		smallFloat comment: 'My instances represent 64-bit Floats whose exponent fits in 8 bits as immediate objects.  This representation is only available on 64-bit systems, not 32-bit systems.'
 			stamp: 'eem 11/25/2014 07:54'.
+			
+		Float class 
+			compile: 'basicNew: anInteger
+	^BoxedFloat64 basicNew: anInteger'
+			classified: 'instance creation'.
+
+		Float class 
+			compile: 'basicNew
+	^BoxedFloat64 basicNew: 2'
+			classified: 'instance creation'.
 
 		Undeclared removeUnreferencedKeys.
 		
