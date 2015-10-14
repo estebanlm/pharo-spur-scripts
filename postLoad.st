@@ -2,10 +2,8 @@ Author useAuthor: 'SpurBootstrap' during: [
 	"WARNING: Order is important."
 	
 	#(
-	"'System-Finalization'" 
 	'Slot' 
-	'Collections-Weak'
-	'Kernel' 
+	'Kernel'
 	'Monticello' 
 	'Fuel') 
 	do: [ :each | 
