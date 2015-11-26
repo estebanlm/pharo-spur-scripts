@@ -3,8 +3,8 @@ Author useAuthor: 'SpurBootstrap' during: [
 	
 	#(
 	'Slot' 
-	'Kernel'
 	'Monticello' 
+	'Kernel'
 	'Fuel') 
 	do: [ :each | 
 		Gofer it 
