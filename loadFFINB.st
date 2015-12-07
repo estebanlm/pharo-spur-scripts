@@ -4,9 +4,6 @@ Author useAuthor: 'SpurBootstrap' during: [
 		baseline: 'FFINB';
 		load.
 
-	Callback initialize.
-	FFITestStructure compileFields. "I need this first"
-
 	Gofer it
 		url: 'filetree://ffi-nb/mc';
 		package: 'System-OSEnvironments';
@@ -14,6 +11,8 @@ Author useAuthor: 'SpurBootstrap' during: [
 		package: 'Athens-Morphic';
 		merge.
 		
+	Callback initialize.
+	FFITestStructure compileFields. "I need this first"
 	FFIExternalStructure allSubclassesDo: #compileFields.
 	"AthensCairoSurface initializeForNewSession." "Not needed"
 ].
