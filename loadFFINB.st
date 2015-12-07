@@ -4,7 +4,7 @@ Author useAuthor: 'SpurBootstrap' during: [
 		baseline: 'FFINB';
 		load.
 	Gofer it
-		repository: 'filetree://ffi-nb/mc';
+		url: 'filetree://ffi-nb/mc';
 		package: 'System-OSEnvironments';
 		package: 'Athens-Cairo';
 		package: 'Athens-Morphic';
